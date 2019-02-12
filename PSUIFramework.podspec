@@ -17,17 +17,17 @@ Pod::Spec.new do |spec|
 
   spec.name         = "PSUIFramework"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of PSUIFramework."
+  spec.summary      = "PSUI framework will help you to test the mode whether it is from debug or production"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
+  #spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/PSUIFramework"
+  spec.homepage     = "https://www.primesoft.net/"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
