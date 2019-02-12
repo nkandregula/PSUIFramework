@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8B3B4A152212A9CF003A36D8 /* PSUIFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B4A132212A9CF003A36D8 /* PSUIFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B4A1C2212AB56003A36D8 /* MyLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B4A1B2212AB56003A36D8 /* MyLog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B3B4A102212A9CF003A36D8 /* PSUIFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSUIFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3B4A132212A9CF003A36D8 /* PSUIFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSUIFramework.h; sourceTree = "<group>"; };
 		8B3B4A142212A9CF003A36D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3B4A1B2212AB56003A36D8 /* MyLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				8B3B4A132212A9CF003A36D8 /* PSUIFramework.h */,
 				8B3B4A142212A9CF003A36D8 /* Info.plist */,
+				8B3B4A1B2212AB56003A36D8 /* MyLog.swift */,
 			);
 			path = PSUIFramework;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					8B3B4A0F2212A9CF003A36D8 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3B4A1C2212AB56003A36D8 /* MyLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		8B3B4A192212A9CF003A36D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -277,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.primesoft.PSUIFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +292,7 @@
 		8B3B4A1A2212A9CF003A36D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
