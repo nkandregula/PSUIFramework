@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
           #5.
           s.license              = "MIT"
           #6.
-          s.author               = = { "Narayana Rao k" => "nkandregula@primesoft.net" }
+          s.author               = { "Narayana Rao k" => "nkandregula@primesoft.net" }
           #7.
           s.platform            = :ios, "10.0"
           #8.
